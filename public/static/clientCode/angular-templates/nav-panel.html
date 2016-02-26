@@ -1,0 +1,28 @@
+
+<div ng-class="{'toggled': getMenuStatus()}" id="wrapper">
+<!-- Sidebar -->
+        <div id="sidebar-wrapper">
+            <ul class="sidebar-nav">
+                <li class="sidebar-brand">
+                    <a ui-sref="nav.home">
+                        Home
+                    </a>
+                </li>
+                <li ng-if="isLoggedIn() == 'false'">
+                    <a ui-sref="nav.login">Login</a>
+                </li>
+                <li ng-if="isLoggedIn() == 'true'">
+                    <a class="cur" ng-click="logOut()">Log Out</a>
+                </li>
+                <li>
+                    <a ui-sref="nav.rules">Strategy</a>
+                </li>
+                <li>
+                    <a ui-sref="nav.about">About</a>
+                </li>
+            </ul>
+        </div>
+
+
+<!-- All child pages go here (charts.html, tables.html, home.html) -->
+<div ui-view> </div>

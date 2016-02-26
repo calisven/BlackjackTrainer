@@ -1,0 +1,115 @@
+
+<menubtn></menubtn>
+
+<h2 style="text-align: right; padding: 30px;" ng-if="setUiUsername() !== 'undefined'">Welcome back, {{setUiUsername()}}</h2>
+<div id="page-content-wrapper">
+            <div class="container-fluid">
+    <!-- Header -->
+    <header id="top" class="header">
+        <div class="text-vertical-center well">
+            <h1>Blackjack Strategy Trainer</h1>
+            <h3>A Blackjack Basic Strategy Guide</h3>
+            <br>
+        </div>
+    </header>
+    
+    <!-- About -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Blackjack Trainer Rules</h2>
+                    <p class="lead">Study your hand and the dealer's card. Choose the appropriate action to take for the given
+                                    hands. For additional help, please visit the 'rules' menu section.</p>
+                </div>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- Services -->
+    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center well">
+                    <h2>Test Your Skill</h2>
+                    <hr>
+                    <div class="row">
+                        <h2>Player Hand</h2>
+                        <div class="col-md-3">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img width="90%" class="img-portfolio img-responsive" ng-src="{{userCardImageOne}}"/>
+                                </a>
+                                
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="portfolio-item">
+                                <a href="#">
+                                    <img width="90%" class="img-portfolio img-responsive" ng-src="{{userCardImageTwo}}"/>
+                                </a>
+                            </div>
+                            <h2>Dealer Hand</h2>
+                        </div>
+                        <div class="col-md-6">
+                            <h2>Wins: {{setUiWins()}}</h2>
+                            <h2>Losses: {{setUiLosses()}}</h2>
+                            <h2>Win Percent: {{setUiPercent() || 0}}%</h2>
+                            <div class="portfolio-item">
+                                <a href="#">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                                <div class="row">
+                <div class="col-lg-10 col-lg-offset-1 text-center">
+                    <div class="col-md-3">
+                        <div class="portfolio-item">
+                            <br>
+                            <a href="#">
+                                <img width="90%" class="img-portfolio img-responsive" ng-src="{{dealerCardImage}}"/>
+                            </a>
+                        </div>
+                    </div> 
+                    <div class="col-md-3">
+                        <div class="portfolio-item">
+                            <br>
+                            <a href="#">
+                                <img width="90%" class="img-portfolio img-responsive" src="libraries/img/png-cards/card_cover.png"/>
+                            </a>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+                </div>
+                <!-- /.col-lg-10 -->
+            </div>
+            
+            <!-- WAS RIGHT ABOVE HERE/.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    
+    <!-- Call to Action -->
+    <aside class="call-to-action bg-primary">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h3>{{message}}</h3>
+                    <a ng-click="hasAnswered || onActionSelect('H')" ng-disabled="hasAnswered == true" class="btn btn-lg btn-success">Hit</a>
+                    <a ng-click="hasAnswered || onActionSelect('S')" ng-disabled="hasAnswered == true" class="btn btn-lg btn-success">Stand</a>
+                    <a ng-click="hasAnswered || onActionSelect('P')" ng-disabled="hasAnswered == true" class="btn btn-lg btn-success">Split</a>
+                    <a ng-click="hasAnswered || onActionSelect('D')" ng-disabled="hasAnswered == true" class="btn btn-lg btn-success">Double Down</a>
+                    <a class="btn btn-lg btn-danger" ng-click="onNewHandClick()">Deal Cards</a>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <br>
+    </div>
+</div>
+</div>

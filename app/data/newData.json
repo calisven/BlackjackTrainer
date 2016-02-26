@@ -1,0 +1,122 @@
+{
+	"Ace": {
+		"Ace": "P,P,P,P,P,P,P,P,P,P",
+		"Two": "H,H,H,D,D,H,H,H,H,H",
+		"Three": "H,H,H,D,D,H,H,H,H,H",
+		"Four": "H,H,D,D,D,H,H,H,H,H",
+		"Five": "H,H,D,D,D,H,H,H,H,H",
+		"Six": "H,D,D,D,D,H,H,H,H,H",
+		"Seven": "S,D/S,D/S,D/S,D/S,S,S,H,H,H",
+		"Eight": "S,S,S,S,S,S,S,S,S,S",
+		"Nine": "S,S,S,S,S,S,S,S,S,S",
+		"Ten": "S,S,S,S,S,S,S,S,S,S"
+	},
+	"Two": {
+		"Ace": "H,H,H,D,D,H,H,H,H,H",
+		"Two": "P,P,P,P,P,P,H,H,H,H",
+		"Three": "H,H,H,H,H,H,H,H,H,H",
+		"Four": "H,H,H,H,H,H,H,H,H,H",
+		"Five": "H,H,H,H,H,H,H,H,H,H",
+		"Six": "H,H,H,H,H,H,H,H,H,H",
+		"Seven": "H,D,D,D,D,H,H,H,H,H",
+		"Eight": "D,D,D,D,D,D,D,D,H,H",
+		"Nine": "D,D,D,D,D,D,D,D,D,H",
+		"Ten": "H,H,S,S,S,H,H,H,H,H"
+	},
+	"Three": {
+		"Ace": "H,H,H,D,D,H,H,H,H,H",
+		"Two": "H,H,H,H,H,H,H,H,H,H",
+		"Three": "P,P,P,P,P,P,H,H,H,H",
+		"Four": "H,H,H,H,H,H,H,H,H,H",
+		"Five": "H,H,H,H,H,H,H,H,H,H",
+		"Six": "H,D,D,D,D,H,H,H,H,H",
+		"Seven": "D,D,D,D,D,D,D,D,H,H",
+		"Eight": "D,D,D,D,D,D,D,D,D,H",
+		"Nine": "H,H,S,S,S,H,H,H,H,H",
+		"Ten": "S,S,S,S,S,H,H,H,H,H"
+	},
+	"Four": {
+		"Ace": "H,H,D,D,D,H,H,H,H,H",
+		"Two": "H,H,H,H,H,H,H,H,H,H",
+		"Three": "H,H,H,P,P,H,H,H,H,H",
+		"Four": "H,H,H,P,P,H,H,H,H,H",
+		"Five": "H,D,D,D,D,H,H,H,H,H",
+		"Six": "D,D,D,D,D,D,D,D,H,H",
+		"Seven": "D,D,D,D,D,D,D,D,D,H",
+		"Eight": "H,H,S,S,S,H,H,H,H,H",
+		"Nine": "S,S,S,S,S,H,H,H,H,H",
+		"Ten": "S,S,S,S,S,H,H,H,H,H"
+	},
+	"Five": {
+		"Ace": "H,H,D,D,D,H,H,H,H,H",
+		"Two": "H,H,H,H,H,H,H,H,H,H",
+		"Three": "H,H,H,H,H,H,H,H,H,H",
+		"Four": "H,D,D,D,D,H,H,H,H,H",
+		"Five": "D,D,D,D,D,D,D,D,H,H",
+		"Six": "D,D,D,D,D,D,D,D,D,H",
+		"Seven": "H,H,S,S,S,H,H,H,H,H",
+		"Eight": "S,S,S,S,S,H,H,H,H,H",
+		"Nine": "S,S,S,S,S,H,H,H,H,H",
+		"Ten": "S,S,S,S,S,H,H,H,SR/H,H"
+	},
+	"Six": {
+		"Ace": "H,D,D,D,D,H,H,H,H,H",
+		"Two": "H,H,H,H,H,H,H,H,H,H",
+		"Three": "H,D,D,D,D,H,H,H,H,H",
+		"Four": "D,D,D,D,D,D,D,D,H,H",
+		"Five": "D,D,D,D,D,D,D,D,D,H",
+		"Six": "P,P,P,P,P,H,H,H,H,H",
+		"Seven": "S,S,S,S,S,H,H,H,H,H",
+		"Eight": "S,S,S,S,S,H,H,H,H,H",
+		"Nine": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Ten": "S,S,S,S,S,H,H,H,SR/H,H"
+	},
+	"Seven": {
+		"Ace": "S,D/S,D/S,D/S,D/S,S,S,H,H,H",
+		"Two": "H,D,D,D,D,H,H,H,H,H",
+		"Three": "D,D,D,D,D,D,D,D,H,H",
+		"Four": "D,D,D,D,D,D,D,D,D,H",
+		"Five": "H,H,S,S,S,H,H,H,H,H",
+		"Six": "S,S,S,S,S,H,H,H,H,H",
+		"Seven": "P,P,P,P,P,P,H,H,H,H",
+		"Eight": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Nine": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Ten": "S,S,S,S,S,S,S,S,S,S"
+	},
+	"Eight": {
+		"Ace": "S,S,S,S,S,S,S,S,S,S",
+		"Two": "D,D,D,D,D,D,D,D,H,H",
+		"Three": "D,D,D,D,D,D,D,D,D,H",
+		"Four": "H,H,S,S,S,H,H,H,H,H",
+		"Five": "S,S,S,S,S,H,H,H,H,H",
+		"Six": "S,S,S,S,S,H,H,H,H,H",
+		"Seven": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Eight": "P,P,P,P,P,P,P,P,P,P",
+		"Nine": "S,S,S,S,S,S,S,S,S,S",
+		"Ten": "S,S,S,S,S,S,S,S,S,S"
+	},
+	"Nine": {
+		"Ace": "S,S,S,S,S,S,S,S,S,S",
+		"Two": "D,D,D,D,D,D,D,D,D,H",
+		"Three": "H,H,S,S,S,H,H,H,H,H",
+		"Four": "S,S,S,S,S,H,H,H,H,H",
+		"Five": "S,S,S,S,S,H,H,H,H,H",
+		"Six": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Seven": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Eight": "S,S,S,S,S,S,S,S,S,S",
+		"Nine": "P,P,P,P,P,S,P,P,S,S",
+		"Ten": "S,S,S,S,S,S,S,S,S,S"
+	},
+	"Ten": {
+		"Ace": "P,P,P,P,P,P,P,P,P,P",
+		"Two": "H,H,S,S,S,H,H,H,H,H",
+		"Three": "S,S,S,S,S,H,H,H,H,H",
+		"Four": "S,S,S,S,S,H,H,H,H,H",
+		"Five": "S,S,S,S,S,H,H,H,SR/H,H",
+		"Six": "S,S,S,S,S,H,H,SR/H,SR/H,SR/H",
+		"Seven": "S,S,S,S,S,S,S,S,S,S",
+		"Eight": "S,S,S,S,S,S,S,S,S,S",
+		"Nine": "S,S,S,S,S,S,S,S,S,S",
+		"Ten": "S,S,S,S,S,S,S,S,S,S"
+	}
+}

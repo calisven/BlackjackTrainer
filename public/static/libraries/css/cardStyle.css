@@ -1,0 +1,44 @@
+/*
+#home {
+    width: 500px;
+    height: 400px;
+    background: url(../img/CardsSheet.png) 0 0;
+}
+
+#next {
+    width: 400px;
+    height: 500px;
+    background: url(../img/CardsSheet.png);
+    background-position: 10px -80px;
+}*/
+/*
+.clip               { position: absolute; top: 0; left: 0; background-size: cover;}
+.go                 {width:500px; height: 500px;}
+.pos-1              { clip:rect(0 73px 98px 0); }
+.pos-2              { clip:rect(0 96px 48px 48px); left: -48px; }
+.pos-3              { clip:rect(48px 48px 96px 0); top: -48px; }
+.pos-4              { clip:rect(48px 96px 96px 48px); top: -48px; 
+                      left: -48px; }
+*/
+/*
+.con { 
+    width: 100px; 
+    height: 156px; 
+    overflow: hidden; 
+}
+.con img { 
+    
+    
+    
+}*/
+
+.con {
+    position:relative;
+    
+}
+#clip {
+    position: absolute;
+    /* add 98 to base 0, 73 and */
+    clip: rect(150px, 111px, 298px, 2px);
+    /* clip: shape(top, right, bottom, left); NB 'rect' is the only available option */
+}
